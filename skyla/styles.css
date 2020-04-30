@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 20%;
+    height: 50px;
+    background-color: #25b4b1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    margin-right: auto;
+    cursor: pointer;
+    width: 45px;
+}
+
+nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+.nav_links li a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container-profile {
+    display: flex;
+    align-items: center;
+}
+
+img.profile {
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.text-profile a {
+    padding 0;
+    margin-left: 8px;
+}
+
+.nav_links li a:hover {
+    color: black;
+}
+
+.container-profile {
+    display: flex;
+    align-items: center;
+}
+
+.container-nachrichten {
+    display: flex;
+    align-items: center;
+}
+
+img.profile {
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+.posts {
+    margin: 70px 20% 0px 20%;
+    padding: 30px 20px 100% 0px;
+    max-width: 450px;
+}
+
+.posts h2 {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.posts .posts-wrapper {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: 0.1px solid #e5e5e5;
+    padding: 5px 20px 20px 5px;
+}
+
+.login-wrapper > div {
+    background: #e5e5e5;
+    padding: 1em;
+}
+.login-wrapper > div:nth-child(odd){
+    background: #ddd;
+}
+
+.login-wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
